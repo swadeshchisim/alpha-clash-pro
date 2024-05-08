@@ -16,6 +16,9 @@ function continueGame() {
     // set randomly alphabet to the screen
     const alphabetArea = document.getElementById('alphabet-area');
     alphabetArea.innerText = alphabet;
+
+    // set background color
+    setBackgroundColorById(alphabet);
 }
 
 function play() {
