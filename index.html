@@ -14,11 +14,11 @@
     <main class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center">
         
         <!-- home screen section -->
-        <section class="home min-h-screen text-white flex justify-center items-center hidden">
+        <section class="home min-h-screen text-white flex justify-center items-center">
             <div class="flex flex-col items-center gap-8">
                 <h1 class="text-8xl font-anton uppercase">Alpha Clash Pro</h1>
                 <p class="text-2xl font-semibold">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-                <button class="btn bg-white text-black">Play</button>
+                <button onclick="play()" class="btn bg-white text-black">Play Now</button>
             </div>
         </section>
         <!-- play ground start -->
@@ -89,7 +89,7 @@
         </section>
         <!-- play ground end -->
         <!-- final score start -->
-        <section class="score flex justify-center items-center min-h-screen">
+        <section class="score flex justify-center items-center min-h-screen hidden">
            <div class="text-white text-center space-y-6 bg-[#ffffff33] p-4 rounded-lg">
                 <h1 class="text-8xl">
                     <span class="font-extrabold">Score:</span>
@@ -100,5 +100,8 @@
            </div>
         </section>
     </main>
+
+
+    <script src="script/alpha-clash.js"></script>
 </body>
 </html>
